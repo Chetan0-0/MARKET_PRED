@@ -51,3 +51,7 @@ Frontend: Streamlit.
 I'm an Engineering Student at IIT Indore. I spend half my time coding AI agents and the other half performing Mime and Stand-up Comedy. I guess you could say I’m an expert at making things (and not the code part) perform under pressure.😏
 
 I believe the best AI systems aren't just powerful; they are communicative and secure.
+
+👋👋
+👋👋
+👋👋
