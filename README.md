@@ -41,7 +41,7 @@ Deployed it all as a single, unified dashboard.
 🛠 Tech Stack
 Deep Learning: PyTorch/Keras (LSTM).
 
-GenAI: Google Gemini 1.5 Flash & LangChain.
+GenAI: Google Gemini 2.5 Flash & LangChain.
 
 Database: ChromaDB.
 
