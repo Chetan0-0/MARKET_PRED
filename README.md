@@ -9,7 +9,7 @@ This project isn't just a dashboard; it’s the result of a "brain transplant" b
 The Evolution: I started with ARIMA, but realized it was too rigid for the chaotic swings of the modern market. I upgraded to LSTM to give the model a "memory."
 
 The Logic Behind the Code:
-Data Windowing: The code takes a 60-day sliding window of historical prices. It doesn't just look at yesterday; it looks at the sequence of the last two months.
+Data Windowing: The code takes a 30-day sliding window of historical prices. It doesn't just look at yesterday; it looks at the sequence of the last one months.
 
 LSTM Layers: Unlike standard neurons, LSTM cells have "gates" that decide which past information is important to keep and which is "noise" to forget.
 
@@ -30,7 +30,7 @@ Let’s be real—merging these two was harder than the actual math.
 
 Trying to get a Google Colab project (Task 1) and a VS Code/Streamlit project (Task 2) to live together in the same GitHub repo felt like trying to perform a mime act in the middle of a stand-up set. Between the remote origin already exists errors and the "unrelated histories" drama, there were moments where I almost threw my laptop out of the window.
 
-But, after some "Git-Jiu-Jitsu" and a lot of debugging, we managed the "Brain Transplant":
+But, after some "Git-Jiu-Jitsu" 😭 and a lot of debugging, we managed the "Brain Transplant":
 
 Exported the LSTM model weights (.pth) and Scaler (.pkl) from Colab.
 
@@ -48,6 +48,6 @@ Database: ChromaDB.
 Frontend: Streamlit.
 
 🎭 About Me
-I'm an Engineering Student at IIT Indore. I spend half my time coding AI agents and the other half performing Mime and Stand-up Comedy. I guess you could say I’m an expert at making things (and code) perform under pressure.
+I'm an Engineering Student at IIT Indore. I spend half my time coding AI agents and the other half performing Mime and Stand-up Comedy. I guess you could say I’m an expert at making things (and not the code part) perform under pressure.😏
 
 I believe the best AI systems aren't just powerful; they are communicative and secure.
